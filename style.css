@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+}
+a{
+    color:#000000;
+}
+.container
+{
+    margin: 100px 50px;
+}
+table.table{
+    
+    width:70%;
+    background-color: rgb(221,
+    221,221);
+}
+
+}
+
+/*  */
+table.table td,
+table.table th{
+    padding: 0.4rem;
+    } 
+
+table.table tfoot, 
+table.table thead{
+    background-color: rgb(58,58,58);
+    color:white;
+}
+
+table.table tbody tr:nth-child(odd){
+    background-color: rgb(158,158,158);
+    
+}
+table.table tbody tr td:nth-child(3){
+    text-align: center;
+}
+table.table thead th, 
+table.table tfoot th,
+table.table tbody tr td{
+    padding:0.5rem;
+
+}
+/* table.table thead th, 
+table.table tfoot th{
+    padding:0.5rem;
+
+} */
+table.table tfoot,
+table.table tbody tr td:nth-child(5),
+table.table tbody tr td:nth-child(4){
+    text-align: right;
+}
+.buttons{
+    width:70%;
+    text-align: right;
+
+}
+.button1, .button2 {
+    padding:8px;
+    font-size: 1.1rem;
+    margin:4px;
+    cursor:pointer;
+    background-color:tomato ;
+    color:white;
+    border:0;
+
+}
